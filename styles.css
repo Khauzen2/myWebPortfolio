@@ -1,0 +1,265 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1e21; /* Dark background for a tech look */
+    color: #d3d3d3; /* Light grey text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #121417; /* Darker grey navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #00ff7f !important; /* Neon green for links */
+    font-weight: bold;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #00cc66 !important; /* Slightly darker neon green on hover */
+}
+
+/* Main Section */
+h1, h2 {
+    color: #4973e6; /* Neon green for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lead {
+    color: #1c1e21;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #25292e; /* Dark grey container */
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4973e6;
+    border-color: #00cc66;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #00b359;
+    border-color: #00b359;
+}
+
+.jumbotron {
+    background-image: url("images/webdevelopementservices.jpg");
+}
+
+/* Links */
+a {
+    color: #4973e6;
+}
+
+a:hover {
+    color: #00cc66;
+}
+
+/* Projects Section */
+.project-card {
+    background-color: #2b2f33; /*Slightly lighter grey for project cards */
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.project-card h3 {
+    color: #4973e6;
+}
+
+/* Footer */
+footer {
+    background-color: #121417;
+    color: #d3d3d3;
+}
+
+footer a {
+    color: #4973e6;
+}
+
+footer a:hover {
+    color: #00cc66;
+}
+
+/* Contact Form */
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #4973e6;
+}
+
+.form-control:focus {
+    background-color: #444;
+    border-color: #00cc66;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #4973e6;
+    border-color: #00ff7f;
+}
+
+.btn-primary:hover {
+    background-color: #00cc66;
+    border-color: #00cc66;
+}
+
+main {
+    padding: 25px;
+    margin: 25px;
+}
+
+#skills {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skill-card {
+    background-color: #ffffff; /* White background for each skill card */
+    border: 1px solid #ddd; /* Light border for cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 15px; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.skill-card h3 {
+    color: #333; /* Dark color for the card title */
+    margin: 0 0 10px 0; /* Space below the title */
+}
+
+.skill-card p {
+    color: #555; /* Slightly lighter color for text */
+    font-size: 15px; /* Font size for readability */
+}
+
+/* Footer styles */
+footer {
+    background-color: #0073e6;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    font-size: 1.1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.like-section {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.like-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+    background-color: #005bb5;
+}
+
+#likeCount {
+    margin-top: 10px;
+    font-size: 20px;
+    color:#2b2f33;
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+}
