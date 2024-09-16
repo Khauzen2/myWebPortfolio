@@ -244,6 +244,16 @@ body {
     color:#2b2f33;
 }
 
+.maintenance {
+    background-color: #0073e6;
+    border: #00cc66 2px solid;
+    border-radius: 25px; 
+}
+
+.maintenance, h1 {
+    color: white;
+}
+
 
 @media (max-width: 768px) {
     .footer-content {
